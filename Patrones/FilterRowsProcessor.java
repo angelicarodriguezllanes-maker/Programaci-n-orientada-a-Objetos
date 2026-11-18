@@ -2,9 +2,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
-/**
- * Filtra filas de la tabla según una condición lógica (OCP).
- */
+//Filtra filas de la tabla según una condición lógica (OCP).
 public class FilterRowsProcessor implements ICsvProcessor {
     private final String columnName;
     private final Predicate<String> keepCondition;
